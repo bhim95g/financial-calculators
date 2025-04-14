@@ -1,9 +1,11 @@
 package com.pluralsight;
 
+import java.awt.desktop.SystemEventListener;
 import java.util.Scanner;
 
 public class MortgageCalculator {
     public static void main(String[] args) {
+
         Scanner input = new Scanner(System.in);
         System.out.print("Enter the loan amount (principle): $");
         double principle = input.nextDouble();
